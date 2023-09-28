@@ -40,12 +40,12 @@ h1 {
     backface-visibility: hidden;
 }
 
-.front { transform: rotateY(0deg) translateZ(100px); }
-.back { transform: rotateY(180deg) translateZ(100px); }
-.top { transform: rotateX(90deg) translateZ(100px); }
-.bottom { transform: rotateX(-90deg) translateZ(100px); }
-.left { transform: rotateY(-90deg) translateZ(100px); }
-.right { transform: rotateY(90deg) translateZ(100px); }
+.front { transform: rotateY(0deg) translateZ(100px); background-color: #ff6347; } /* Red */
+.back { transform: rotateY(180deg) translateZ(100px); background-color: #0000cd; } /* Blue */
+.top { transform: rotateX(90deg) translateZ(100px); background-color: #ffff00; } /* Yellow */
+.bottom { transform: rotateX(-90deg) translateZ(100px); background-color: #008000; } /* Green */
+.left { transform: rotateY(-90deg) translateZ(100px); background-color: #ff4500; } /* Orange */
+.right { transform: rotateY(90deg) translateZ(100px); background-color: #ffffff; } /* White */
 
 button {
     background-color: #007bff;
